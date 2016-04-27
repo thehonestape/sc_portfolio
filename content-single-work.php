@@ -13,9 +13,7 @@
 					$image = get_sub_field('image');
 					$caption = get_sub_field('caption');
 				?>
-				<a href="<?php the_permalink(); ?>">
-						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" />
-				</a>
+				<img class="work" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" />
 			<?php endwhile; ?>
 		<?php endif; ?>
 	</div>
