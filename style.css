@@ -260,16 +260,31 @@ display: block;
 
 /* Begin Sabrina's Custom Styles --------------------------------------- */
 
+.work {
+	margin-bottom: 20px;
+}
+
 /* NAVIGATION ---------------------------------------------------------- */
 
 .navbar li {
 	position: relative;
 	display:inline-block;
-	margin: 20px;
-	font-size: 10px;
-	padding: 5px 10px;
+	/*margin: 20px;*/
+	/*font-size: 10px;*/
+	/*padding: 5px 10px;*/
 }
-
+.navbar-brand {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.navbar li a {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.navbar .container {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
 .post-navigation li {
 	width: 100%;
 	background: #000000;
